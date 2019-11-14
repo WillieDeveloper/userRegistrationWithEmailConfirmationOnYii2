@@ -1,0 +1,100 @@
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    background-color: rgb(230, 230, 230);
+    padding: 40px 40px 40px 60px;
+    display: flex;
+}
+
+.welcome h1 {
+    font-size: 36px;
+    color: rgb(131, 131, 131);
+    font-weight: 400;
+}
+
+.welcome span {
+    font-size: 36px;
+    color: rgb(235, 141, 0);
+}
+
+nav {
+    margin-top: 36px;
+    margin-left: 40%;
+}
+
+.topnav a {
+    color: rgb(131, 131, 131);
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid rgb(235, 141, 0);
+}
+
+.form {
+    background-color: rgb(230, 230, 230);
+    width: 320px;
+    color: rgb(131, 131, 131);
+    padding: 20px;
+    margin: 30px auto;
+    font-size: 18px;
+}
+
+input {
+    width: 220px;
+}
+
+select {
+    width: 220px;
+}
+
+.message {
+    background-color: rgb(230, 230, 230);
+    color: rgb(131, 131, 131);
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 22px;
+    font-weight: 400; 
+}
+
+.msg_text {
+    padding: 20px;
+}
+
+.user_sheet {
+    color: rgb(131, 131, 131);
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.user_sheet td {
+    border: 1px solid rgb(141, 141, 141);
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+}
+
+.user_sheet th {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.notice {
+    font-size: 14px;
+    color: rgb(141, 141, 141); 
+}
